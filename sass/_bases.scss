@@ -11,7 +11,7 @@
     }
 }
 
-.seleccion_uno{
+.seccion_uno{
     background-color: $background_uno;
     padding-top: $padding;
     h1, h3 {
@@ -20,13 +20,13 @@
     }
 }
 
-.seleccion_dos{
+.seccion_dos{
     background-color: $background_dos;
     padding: $padding_footer;
     @include excel();
 }
 
-.seleccion_tres{
+.seccion_tres{
     background-color: $background_dos;
     padding: $padding_footer;
     .desktop{
@@ -42,7 +42,7 @@
 }
 
 @media(max-width:600px){
-    .seleccion_uno{
+    .seccion_uno{
         background-color: $background_uno;
         padding-top: $padding_media;
     }
